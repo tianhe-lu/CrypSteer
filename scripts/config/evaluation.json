@@ -1,0 +1,39 @@
+{
+  "execution": {
+    "workers": 8,
+    "analysis_timeout_seconds": 300
+  },
+  "frontends": {
+    "java": {
+      "extension": ".java",
+      "javac_command": "javac",
+      "java_command": "java",
+      "release": "21",
+      "compiler_script": "scripts/tooling/java/ValidateDatasetTree.java"
+    },
+    "typescript": {
+      "extension": ".ts",
+      "node_command": "node",
+      "compiler_script": "scripts/tooling/typescript/validate_dataset_tree.py",
+      "tsconfig_path": "scripts/tooling/typescript/tsconfig.json",
+      "batch_size": 250
+    },
+    "csharp": {
+      "extension": ".cs",
+      "dotnet_command": "dotnet",
+      "tooling_project": "scripts/tooling/csharp/JcaApiMisuse.CSharpTooling.csproj",
+      "framework": "net10.0",
+      "language_version": "14.0"
+    },
+    "python": {
+      "extension": ".py",
+      "approved_import_roots": ["cryptography"],
+      "python_version": "3.11",
+      "cryptography_version": "49.0.0"
+    }
+  },
+  "policy": {
+    "label_minimum_iterations": 1000,
+    "modern_guidance_iterations": 100000
+  }
+}

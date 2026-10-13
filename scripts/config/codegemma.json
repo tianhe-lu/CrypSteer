@@ -1,0 +1,6 @@
+{
+  "model_name": "codegemma",
+  "model_path": "google/codegemma-7b-it",
+  "dtype": "bfloat16",
+  "trust_remote_code": false
+}

@@ -1,0 +1,29 @@
+{
+  "confidence_level": 0.95,
+  "bootstrap_replicates": 20000,
+  "sign_flip_replicates": 100000,
+  "bootstrap_batch_size": 250,
+  "sign_flip_batch_size": 10000,
+  "seeds": {
+    "llama": {
+      "main": {"bootstrap": 2960936912, "sign_flip": 1663234068},
+      "literature": {"bootstrap": 20260827, "sign_flip": 20260828}
+    },
+    "codegemma": {
+      "main": {"bootstrap": 2923649830, "sign_flip": 1258850259},
+      "literature": {"bootstrap": 20260927, "sign_flip": 20260928}
+    },
+    "qwen": {
+      "main": {"bootstrap": 2185559247, "sign_flip": 627615673},
+      "literature": {"bootstrap": 20261027, "sign_flip": 20261028}
+    },
+    "qwen_coder": {
+      "main": {"bootstrap": 1433332960, "sign_flip": 1136752604},
+      "literature": {"bootstrap": 20261127, "sign_flip": 20261128}
+    },
+    "deepseek": {
+      "main": {"bootstrap": 272921820, "sign_flip": 1152258665},
+      "literature": {"bootstrap": 20261227, "sign_flip": 20261228}
+    }
+  }
+}

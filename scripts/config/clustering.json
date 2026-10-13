@@ -1,0 +1,8 @@
+{
+  "cluster_count": 10,
+  "random_seed": 0,
+  "n_init": 20,
+  "max_iter": 500,
+  "tolerance": 1e-6,
+  "normalization_epsilon": 1e-12
+}

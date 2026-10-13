@@ -1,0 +1,8 @@
+{
+  "samples_per_prompt": 30,
+  "seed_start": 2000,
+  "do_sample": true,
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "max_new_tokens": 2048
+}

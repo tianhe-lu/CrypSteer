@@ -1,0 +1,6 @@
+{
+  "model_name": "deepseek",
+  "model_path": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+  "dtype": "bfloat16",
+  "trust_remote_code": false
+}

@@ -1,0 +1,5 @@
+{
+  "regularization_c": 1.0,
+  "max_iterations": 10000,
+  "tolerance": 0.0001
+}

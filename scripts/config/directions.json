@@ -1,0 +1,5 @@
+{
+  "candidate_components": 10,
+  "normalization_epsilon": 1e-12,
+  "orientation_epsilon": 1e-8
+}
