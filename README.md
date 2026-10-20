@@ -1,6 +1,6 @@
 # CrypSteer
 
-Code and data for *Many Repairs, One Direction: Steering Code Models Toward Safer Cryptographic API Use*.
+Code and data for Paper: [Many Repairs, One Direction: Steering Code Models Toward Safer Cryptographic API Use](https://arxiv.org/abs/2610.25133).
 
 - [Data](data/README.md): dataset files, contents, and fields.
 - [Experiments](scripts/README.md): dependencies, script order, and commands. Run commands from this repository root.
@@ -14,10 +14,15 @@ The code and datasets in this repository are released under the [MIT License](LI
 
 If you use the code or datasets in your research, please cite our paper:
 
-Tianhe Lu, Sakuna Harinda Jayasundara, Eric Spero, Ewan Tempero, Robert Biddle, and Giovanni Russello. 2026.
-*Many Repairs, One Direction: Steering Code Models Toward Safer Cryptographic API Use*.
-
-Author affiliation: University of Auckland.
+@misc{lu2026repairsdirectionsteeringcode,
+      title={Many Repairs, One Direction: Steering Code Models Toward Safer Cryptographic API Use}, 
+      author={Tianhe Lu and Sakuna Harinda Jayasundara and Eric Spero and Ewan Tempero and Robert Biddle and Giovanni Russello},
+      year={2026},
+      eprint={2610.25133},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2610.25133}, 
+}
 
 ## Dataset setup
 
