@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use our code or data, please cite the paper below."
+title: "CrypSteer"
+type: software
+authors:
+  - family-names: "Lu"
+    given-names: "Tianhe"
+  - family-names: "Jayasundara"
+    given-names: "Sakuna Harinda"
+  - family-names: "Spero"
+    given-names: "Eric"
+  - family-names: "Tempero"
+    given-names: "Ewan"
+  - family-names: "Biddle"
+    given-names: "Robert"
+  - family-names: "Russello"
+    given-names: "Giovanni"
+url: "https://github.com/tianhe-lu/CrypSteer"
+preferred-citation:
+  type: article
+  title: "Many Repairs, One Direction: Steering Code Models Toward Safer Cryptographic API Use"
+  authors:
+    - family-names: "Lu"
+      given-names: "Tianhe"
+    - family-names: "Jayasundara"
+      given-names: "Sakuna Harinda"
+    - family-names: "Spero"
+      given-names: "Eric"
+    - family-names: "Tempero"
+      given-names: "Ewan"
+    - family-names: "Biddle"
+      given-names: "Robert"
+    - family-names: "Russello"
+      given-names: "Giovanni"
+  journal: "arXiv preprint arXiv:2610.25133"
+  year: 2026
+  url: "https://arxiv.org/abs/2610.25133"
