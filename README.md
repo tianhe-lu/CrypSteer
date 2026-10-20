@@ -14,15 +14,17 @@ The code and datasets in this repository are released under the [MIT License](LI
 
 If you use the code or datasets in your research, please cite our paper:
 
-@misc{lu2026repairsdirectionsteeringcode,
-      title={Many Repairs, One Direction: Steering Code Models Toward Safer Cryptographic API Use}, 
-      author={Tianhe Lu and Sakuna Harinda Jayasundara and Eric Spero and Ewan Tempero and Robert Biddle and Giovanni Russello},
-      year={2026},
-      eprint={2610.25133},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2610.25133}, 
+```bibtex
+@misc{lu2026crypsteer,
+  title         = {Many Repairs, One Direction: Steering Code Models Toward Safer Cryptographic {API} Use},
+  author        = {Lu, Tianhe and Jayasundara, Sakuna Harinda and Spero, Eric and Tempero, Ewan and Biddle, Robert and Russello, Giovanni},
+  year          = {2026},
+  eprint        = {2610.25133},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CR},
+  url           = {https://arxiv.org/abs/2610.25133}
 }
+```
 
 ## Dataset setup
 
