@@ -1,6 +1,6 @@
 # CrypSteer
 
-Code and data for Paper: [Many Repairs, One Direction: Steering Code Models Toward Safer Cryptographic API Use](https://arxiv.org/abs/2610.25133).
+Code and data for [Many Repairs, One Direction: Steering Code Models Toward Safer Cryptographic API Use](https://arxiv.org/abs/2610.25133).
 
 - [Data](data/README.md): dataset files, contents, and fields.
 - [Experiments](scripts/README.md): dependencies, script order, and commands. Run commands from this repository root.
@@ -32,3 +32,4 @@ From the repository root, extract the dataset before running the scripts:
 
 ```bash
 unzip crypsteer_data.zip
+```
